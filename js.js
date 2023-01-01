@@ -15,6 +15,6 @@ function playRound(playerSelection, computerSelection) {
     }
     
 }
-const playerSselection = "rock";
+const playerSselection = prompt();
 const computerSelection = getComputerChoice();
 console.log(playRound(playerSselection, computerSelection));
