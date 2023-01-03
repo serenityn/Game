@@ -1,4 +1,10 @@
 
+let playerPrompt = prompt("Enter Rock, Paper, or Scissors");
+const computerSelection = getComputerChoice();
+const playerSelection = playerPrompt.toLowerCase();
+const fiveRounds = playRound();
+
+console.log(playRound(playerSselection, computerSelection));
 function getComputerChoice() {
     let arrGame = ["rock", "paper", "scissors"];
     let randGame = arrGame[Math.floor(Math.random() * arrGame.length)];
@@ -24,8 +30,10 @@ function playRound(playerSelection, computerSelection) {
     
 }
 
-let playerPrompt = prompt("Enter Rock, Paper, or Scissors");
-const computerSelection = getComputerChoice();
-const playerSelection = playerPrompt.toLowerCase();
 
-console.log(playRound(playerSselection, computerSelection));
+
+function game(fiveRounds) {
+    for (let i = 0; i < 5; i++) {
+
+    }
+}
